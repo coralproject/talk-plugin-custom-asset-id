@@ -37,3 +37,7 @@ Simply modify/create the `plugins.json` file to include it:
 ```
 
 Which will enable it.
+
+## License
+
+Talk is released under the [Apache License, v2.0](/LICENSE).
