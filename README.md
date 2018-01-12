@@ -7,25 +7,27 @@ lookup and if not found create with the given ID and URL. If the ID is not
 provided however, the url will be used instead and it will fall back to Talk
 assigning an ID.
 
+## Algorithm
+
+### Asset ID provided
+
+Attempt to lookup Asset with the given ID, if found, return asset. If the asset
+is not found, create it with the url.
+
+### Asset ID not provided
+
+Attempt to lookup Asset with the url, if found, return asset. If the asset is
+not found, create it with the url and assign a new ID.
+
 ## Installation
 
-### Docker
-
-If you are using the `coralproject/talk:*-onbuild` images, you can place this
-into the `plugins` directory, as:
-
-```
-plugins/
-  - talk-plugin-custom-asset-id
-```
-
-And modify/create the `plugins.json` file to include it:
+Simply modify/create the `plugins.json` file to include it:
 
 ```js
 {
   "server": [
     // ...
-    "talk-plugin-custom-asset-id",
+    {"@coralproject/talk-plugin-custom-asset-id": "^1.0.0"},
     // ...
   ],
   "client": [
@@ -35,8 +37,3 @@ And modify/create the `plugins.json` file to include it:
 ```
 
 Which will enable it.
-
-### Source
-
-Simply place this folder in the pre-existing `plugins` folder and modify/create
-the `plugins.json` file as described in the Docker section above.
