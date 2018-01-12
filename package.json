@@ -1,0 +1,12 @@
+{
+  "name": "@coralproject/talk-plugin-custom-asset-id",
+  "version": "1.0.0",
+  "description": "Custom Asset ID Plugin for The Coral Project's Talk",
+  "main": "index.js",
+  "author": "Mozilla (https://mozilla.org)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@coralproject/eslint-config-talk": "^0.0.4",
+    "eslint": "^4.11.0"
+  }
+}
