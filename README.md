@@ -1,6 +1,6 @@
 # Talk Plugin Custom ID Assets
 
-:sparkles: Thanks to The Register-Guard for agreeing to open source this plugin.  :sparkles:
+:sparkles: Thanks to The Register-Guard for agreeing to open source this plugin. :sparkles:
 
 This plugin is designed to allow the embed for Talk to specify an Asset ID to
 lookup and if not found create with the given ID and URL. If the ID is not
