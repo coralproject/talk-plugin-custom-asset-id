@@ -93,7 +93,7 @@ const findOrCreateAsset = async (ctx, id, url) => {
   if (!asset.scraped) {
 
     // Create the Scraper job.
-    await Scraper.create(asset);
+    await Scraper.create(ctx, id);
   }
 
   return asset;
