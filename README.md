@@ -27,7 +27,7 @@ Simply modify/create the `plugins.json` file to include it:
 {
   "server": [
     // ...
-    {"@coralproject/talk-plugin-custom-asset-id": "^1.0.0"},
+    {"@coralproject/talk-plugin-custom-asset-id": "^1.1.0"},
     // ...
   ],
   "client": [
