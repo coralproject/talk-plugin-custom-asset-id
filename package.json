@@ -1,6 +1,6 @@
 {
   "name": "@coralproject/talk-plugin-custom-asset-id",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Custom Asset ID Plugin for The Coral Project's Talk",
   "main": "index.js",
   "author": "Mozilla (https://mozilla.org)",
